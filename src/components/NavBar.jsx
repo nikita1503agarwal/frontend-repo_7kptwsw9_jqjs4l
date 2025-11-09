@@ -22,7 +22,7 @@ export default function NavBar() {
                 <a href="#features" className="group inline-flex items-center gap-2 rounded-full px-3 py-2 text-indigo-100/80 transition hover:text-white">
                   <Sparkles size={16} className="text-amber-300 group-hover:scale-110 transition" />
                   <span className="relative">
-                    Features
+                    Fitur
                     <span className="absolute -bottom-1 left-0 h-px w-0 bg-gradient-to-r from-amber-300 via-indigo-300 to-purple-300 transition-all duration-300 group-hover:w-full" />
                   </span>
                 </a>
@@ -31,7 +31,7 @@ export default function NavBar() {
                 <a href="#analysis" className="group inline-flex items-center gap-2 rounded-full px-3 py-2 text-indigo-100/80 transition hover:text-white">
                   <Brain size={16} className="text-purple-300 group-hover:scale-110 transition" />
                   <span className="relative">
-                    AI Analysis
+                    Analisis AI
                     <span className="absolute -bottom-1 left-0 h-px w-0 bg-gradient-to-r from-purple-300 via-indigo-300 to-amber-300 transition-all duration-300 group-hover:w-full" />
                   </span>
                 </a>
@@ -40,7 +40,7 @@ export default function NavBar() {
                 <a href="#security" className="group inline-flex items-center gap-2 rounded-full px-3 py-2 text-indigo-100/80 transition hover:text-white">
                   <Shield size={16} className="text-indigo-300 group-hover:scale-110 transition" />
                   <span className="relative">
-                    Privacy
+                    Privasi
                     <span className="absolute -bottom-1 left-0 h-px w-0 bg-gradient-to-r from-indigo-300 via-purple-300 to-amber-300 transition-all duration-300 group-hover:w-full" />
                   </span>
                 </a>
@@ -50,10 +50,10 @@ export default function NavBar() {
             <div className="hidden sm:flex items-center gap-3">
               <a href="#analysis" className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-500/20 via-purple-500/20 to-amber-400/20 px-4 py-2 text-sm font-medium text-white ring-1 ring-white/15 backdrop-blur transition hover:from-indigo-500/30 hover:via-purple-500/30 hover:to-amber-400/30">
                 <LineChart size={16} className="text-amber-300 group-hover:rotate-6 transition" />
-                Live Demo
+                Demo Langsung
               </a>
               <a href="#cta" className="relative inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-300 to-amber-500 px-5 py-2 text-sm font-semibold text-indigo-950 shadow-[0_0_25px_-5px_rgba(245,197,24,0.7)] transition hover:shadow-amber-400/50">
-                Start Your AI Career Analysis
+                Mulai Analisis Karier AI Anda
               </a>
             </div>
           </nav>

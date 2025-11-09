@@ -19,18 +19,18 @@ export default function DashboardPreview() {
             <Layers size={18} />
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-white">AI Analysis Console</h3>
-            <p className="text-xs text-indigo-200/70">Real-time mapping of skills, traits, and trajectory probabilities</p>
+            <h3 className="text-lg font-semibold text-white">Konsol Analisis AI</h3>
+            <p className="text-xs text-indigo-200/70">Pemetaan waktu nyata keterampilan, sifat, dan probabilitas trajektori</p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-12">
-          {/* Left: Graphs */}
+          {/* Kiri: Grafik */}
           <div className="md:col-span-8 space-y-6">
             <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-4">
               <div className="pointer-events-none absolute -inset-20 bg-[conic-gradient(from_90deg_at_50%_50%,rgba(167,139,250,0.15),rgba(99,102,241,0.12),rgba(251,191,36,0.12),transparent)] blur-2xl" />
               <div className="flex items-center justify-between">
-                <h4 className="text-sm font-medium text-indigo-100/90">Skill Match Heatmap</h4>
+                <h4 className="text-sm font-medium text-indigo-100/90">Heatmap Kecocokan Keterampilan</h4>
                 <BarChart3 size={16} className="text-amber-300" />
               </div>
               <div className="mt-4 grid grid-cols-12 gap-1">
@@ -51,7 +51,7 @@ export default function DashboardPreview() {
               <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-4">
                 <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_70%_20%,rgba(251,191,36,0.12),transparent_40%)]" />
                 <div className="flex items-center justify-between">
-                  <h4 className="text-sm font-medium text-indigo-100/90">Personality Vector</h4>
+                  <h4 className="text-sm font-medium text-indigo-100/90">Vektor Kepribadian</h4>
                   <Network size={16} className="text-purple-300" />
                 </div>
                 <div className="mt-4 grid grid-cols-6 gap-3">
@@ -70,7 +70,7 @@ export default function DashboardPreview() {
               <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-4">
                 <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_30%_70%,rgba(99,102,241,0.15),transparent_50%)]" />
                 <div className="flex items-center justify-between">
-                  <h4 className="text-sm font-medium text-indigo-100/90">Trajectory Forecast</h4>
+                  <h4 className="text-sm font-medium text-indigo-100/90">Perkiraan Trajektori</h4>
                   <Activity size={16} className="text-amber-300" />
                 </div>
                 <svg viewBox="0 0 400 120" className="mt-3 h-28 w-full">
@@ -88,22 +88,22 @@ export default function DashboardPreview() {
                     ))}
                   </g>
                 </svg>
-                <p className="mt-2 text-xs text-indigo-200/70">Projected growth confidence over 12 months</p>
+                <p className="mt-2 text-xs text-indigo-200/70">Perkiraan kepercayaan pertumbuhan selama 12 bulan</p>
               </div>
             </div>
           </div>
 
-          {/* Right: Stats */}
+          {/* Kanan: Statistik */}
           <div className="md:col-span-4 space-y-4">
-            <Stat label="Match Accuracy" value="97.2%" glow="bg-[radial-gradient(circle_at_20%_0%,rgba(251,191,36,0.12),transparent_60%)]" />
-            <Stat label="Trait Coverage" value="86 dimensions" glow="bg-[radial-gradient(circle_at_80%_20%,rgba(167,139,250,0.14),transparent_70%)]" />
-            <Stat label="Career Graph" value="1,284 nodes" glow="bg-[radial-gradient(circle_at_20%_80%,rgba(99,102,241,0.14),transparent_70%)]" />
+            <Stat label="Akurasi Kecocokan" value="97.2%" glow="bg-[radial-gradient(circle_at_20%_0%,rgba(251,191,36,0.12),transparent_60%)]" />
+            <Stat label="Cakupan Sifat" value="86 dimensi" glow="bg-[radial-gradient(circle_at_80%_20%,rgba(167,139,250,0.14),transparent_70%)]" />
+            <Stat label="Graf Karier" value="1.284 node" glow="bg-[radial-gradient(circle_at_20%_80%,rgba(99,102,241,0.14),transparent_70%)]" />
             <div className="relative overflow-hidden rounded-xl border border-white/10 bg-white/5 p-4">
-              <p className="text-xs uppercase tracking-widest text-indigo-200/70">AI Compute</p>
+              <p className="text-xs uppercase tracking-widest text-indigo-200/70">Komputasi AI</p>
               <div className="mt-3 h-2 w-full overflow-hidden rounded-full bg-white/10">
                 <div className="h-full w-3/4 rounded-full bg-gradient-to-r from-indigo-400 via-purple-400 to-amber-300 shadow-[0_0_20px_rgba(167,139,250,0.6)]" />
               </div>
-              <p className="mt-2 text-xs text-indigo-200/70">Optimizing parameters…</p>
+              <p className="mt-2 text-xs text-indigo-200/70">Mengoptimalkan parameter…</p>
             </div>
           </div>
         </div>
